@@ -1,8 +1,10 @@
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
-// https://vite.dev/config/
-export default defineConfig({
-  base: '/PokeSearch-React/',
-  plugins: [react()],
+// This checks if we are running 'npm run deploy' (production) or 'npm run dev' (development)
+export default defineConfig(({ command }) => {
+  return {
+    base: command === 'build' ? '/PokeSearch-React/' : '/',
+    plugins: [react()],
+  }
 })
