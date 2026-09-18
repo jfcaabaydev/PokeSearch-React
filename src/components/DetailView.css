@@ -1,0 +1,18 @@
+.back-button {
+  font-size: 1rem;
+  margin: 8px;
+  padding: 0.5em 1.5em;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  background: #5E0006;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  opacity: 0.85;
+}
+
+.back-button:active {
+  opacity: 1;
+}

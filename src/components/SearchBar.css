@@ -1,0 +1,12 @@
+.search-bar-container {
+  margin: 8px;
+  padding: 8px;
+  
+}
+
+.search-input {
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  padding: 8px;
+}
